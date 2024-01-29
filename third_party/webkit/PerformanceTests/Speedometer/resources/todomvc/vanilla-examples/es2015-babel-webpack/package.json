@@ -4,8 +4,8 @@
     "d3": "3.5.17",
     "lodash": "4.14.1",
     "rd3": "0.7.0",
-    "react": "15.3.0",
-    "react-dom": "15.3.0",
+    "react": "15.7.0",
+    "react-dom": "15.7.0",
     "todomvc-app-css": "2.1.0"
   },
   "devDependencies": {
