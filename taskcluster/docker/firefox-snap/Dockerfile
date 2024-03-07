@@ -4,7 +4,7 @@
 
 # /!\ The base image must follow the version of the `coreXX` package
 # https://forum.snapcraft.io/t/issues-dockerizing-a-snapcraft-build-process/30294/5
-FROM ubuntu:focal
+FROM ubuntu:20.04
 
 ENV LANG='en_US.UTF-8' \
     LANGUAGE='en_US:en' \
