@@ -339,7 +339,7 @@ github3-py==3.2.0 \
     --hash=sha256:09b72be1497d346b0968cde8360a0d6af79dc206d0149a63cd3ec86c65c377cc \
     --hash=sha256:a9016e40609c6f5cb9954dd188d08257dafd09c4da8c0e830a033fca00054b0d
     # via scriptworker
-idna==3.4 \
+idna==3.7 \
     --hash=sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4 \
     --hash=sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2
     # via
