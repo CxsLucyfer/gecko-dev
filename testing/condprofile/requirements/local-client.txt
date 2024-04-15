@@ -4,3 +4,4 @@
 
 requests==2.22.0
 pyyaml==5.1.2
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
