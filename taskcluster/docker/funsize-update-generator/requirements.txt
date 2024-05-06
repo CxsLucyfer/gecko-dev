@@ -4,7 +4,7 @@
 #
 #    pip-compile --generate-hashes --output-file=requirements.txt requirements.in
 #
-aiohttp==3.8.3 \
+aiohttp==3.9.4 \
     --hash=sha256:02f9a2c72fc95d59b881cf38a4b2be9381b9527f9d328771e90f72ac76f31ad8 \
     --hash=sha256:059a91e88f2c00fe40aed9031b3606c3f311414f86a90d696dd982e7aec48142 \
     --hash=sha256:05a3c31c6d7cd08c149e50dc7aa2568317f5844acd745621983380597f027a18 \
@@ -221,7 +221,7 @@ colorama==0.4.4 \
 construct==2.10.68 \
     --hash=sha256:7b2a3fd8e5f597a5aa1d614c3bd516fa065db01704c72a1efaaeec6ef23d8b45
     # via mar
-cryptography==39.0.0 \
+cryptography==42.0.6 \
     --hash=sha256:1a6915075c6d3a5e1215eab5d99bcec0da26036ff2102a1038401d6ef5bef25b \
     --hash=sha256:1ee1fd0de9851ff32dbbb9362a4d833b579b4a6cc96883e8e6d2ff2a6bc7104f \
     --hash=sha256:407cec680e811b4fc829de966f88a7c62a596faa250fc1a4b520a0355b9bc190 \
