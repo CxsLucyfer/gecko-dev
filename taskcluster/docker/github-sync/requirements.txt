@@ -1,3 +1,4 @@
 requests == 2.21.0
 pygit2 == 1.11.1
 python-hglib == 2.6.1
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
