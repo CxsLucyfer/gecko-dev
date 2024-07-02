@@ -1,4 +1,4 @@
-FROM debian:bullseye-20221205
+FROM debian:bullseye-20240701
 
 COPY setup.sh /root
 RUN cd /root && ./setup.sh
