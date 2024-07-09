@@ -5,3 +5,4 @@ pytest-mock
 flake8
 coverage
 unittest2; python_version < '2.7'
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
