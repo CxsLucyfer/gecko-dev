@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "jscodeshift": "^0.13.1"
+    "jscodeshift": "^0.16.1"
   },
   "scripts": {
     "convert_module": "jscodeshift -t use-import-export-declarations.js --stdin --verbose=2",
