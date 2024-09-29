@@ -14,3 +14,5 @@ requests>=2.9.1
 ../tools/wpt_third_party/h2
 ../tools/wpt_third_party/pywebsocket3
 manifestparser>=2.1.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
