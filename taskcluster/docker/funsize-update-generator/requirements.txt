@@ -4,7 +4,7 @@
 #
 #    pip-compile --generate-hashes --output-file=requirements.txt requirements.in
 #
-aiohttp==3.8.3 \
+aiohttp==3.10.2 \
     --hash=sha256:02f9a2c72fc95d59b881cf38a4b2be9381b9527f9d328771e90f72ac76f31ad8 \
     --hash=sha256:059a91e88f2c00fe40aed9031b3606c3f311414f86a90d696dd982e7aec48142 \
     --hash=sha256:05a3c31c6d7cd08c149e50dc7aa2568317f5844acd745621983380597f027a18 \
@@ -124,7 +124,7 @@ attrs==22.2.0 \
     # via
     #   aiohttp
     #   jsonschema
-awscli==1.27.46 \
+awscli==1.27.90 \
     --hash=sha256:276cef3cc89e6c1888eb327d4a2d7702105a49271b1e3e93472bcd9f02beb24c \
     --hash=sha256:a9b64b091db2edd13a611b4c4ec47fc2e7c67b3efe5ea840466f2138a9634c7b
     # via -r requirements.in
@@ -134,7 +134,7 @@ botocore==1.29.46 \
     # via
     #   awscli
     #   s3transfer
-certifi==2022.12.7 \
+certifi==2024.7.4 \
     --hash=sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3 \
     --hash=sha256:4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18
     # via requests
@@ -221,7 +221,7 @@ colorama==0.4.4 \
 construct==2.10.68 \
     --hash=sha256:7b2a3fd8e5f597a5aa1d614c3bd516fa065db01704c72a1efaaeec6ef23d8b45
     # via mar
-cryptography==39.0.0 \
+cryptography==43.0.1 \
     --hash=sha256:1a6915075c6d3a5e1215eab5d99bcec0da26036ff2102a1038401d6ef5bef25b \
     --hash=sha256:1ee1fd0de9851ff32dbbb9362a4d833b579b4a6cc96883e8e6d2ff2a6bc7104f \
     --hash=sha256:407cec680e811b4fc829de966f88a7c62a596faa250fc1a4b520a0355b9bc190 \
@@ -339,7 +339,7 @@ github3-py==3.2.0 \
     --hash=sha256:09b72be1497d346b0968cde8360a0d6af79dc206d0149a63cd3ec86c65c377cc \
     --hash=sha256:a9016e40609c6f5cb9954dd188d08257dafd09c4da8c0e830a033fca00054b0d
     # via scriptworker
-idna==3.4 \
+idna==3.7 \
     --hash=sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4 \
     --hash=sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2
     # via
@@ -533,7 +533,7 @@ redo==2.0.4 \
     --hash=sha256:81066955041c853b0e6491eb65a0877dce45131c4cfa3d42d923fc2aa8f7a043 \
     --hash=sha256:c76e4c23ab2f8840261736a851323cd98493710e7a9d36a1058535dca501f293
     # via -r requirements.in
-requests==2.28.1 \
+requests==2.32.2 \
     --hash=sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983 \
     --hash=sha256:8fefa2a1a1365bf5520aac41836fbee479da67864514bdb821f31ce07ce65349
     # via
@@ -579,7 +579,7 @@ uritemplate==4.1.1 \
     --hash=sha256:4346edfc5c3b79f694bccd6d6099a322bbeb628dbf2cd86eea55a456ce5124f0 \
     --hash=sha256:830c08b8d99bdd312ea4ead05994a38e8936266f84b9a7878232db50b044e02e
     # via github3-py
-urllib3==1.26.13 \
+urllib3==1.26.19 \
     --hash=sha256:47cc05d99aaa09c9e72ed5809b60e7ba354e64b59c9c173ac3018642d8bb41fc \
     --hash=sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8
     # via
@@ -661,3 +661,4 @@ yarl==1.8.2 \
     --hash=sha256:fc77086ce244453e074e445104f0ecb27530d6fd3a46698e33f6c38951d5a0f1 \
     --hash=sha256:ff205b58dc2929191f68162633d5e10e8044398d7a45265f90a0f1d51f85f72c
     # via aiohttp
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
