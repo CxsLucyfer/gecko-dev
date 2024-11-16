@@ -1,5 +1,5 @@
 # Minimal image with clang-format 3.9.
-FROM ubuntu:bionic-20221215
+FROM ubuntu:18.04
 LABEL maintainer="iaroslav.gridin@tuni.fi"
 
 # for new clang/llvm
