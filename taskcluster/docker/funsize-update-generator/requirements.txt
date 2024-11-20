@@ -4,7 +4,7 @@
 #
 #    pip-compile --generate-hashes --output-file=requirements.txt requirements.in
 #
-aiohttp==3.8.3 \
+aiohttp==3.10.11 \
     --hash=sha256:02f9a2c72fc95d59b881cf38a4b2be9381b9527f9d328771e90f72ac76f31ad8 \
     --hash=sha256:059a91e88f2c00fe40aed9031b3606c3f311414f86a90d696dd982e7aec48142 \
     --hash=sha256:05a3c31c6d7cd08c149e50dc7aa2568317f5844acd745621983380597f027a18 \
