@@ -20,7 +20,7 @@
   "author": "Mike Ratcliffe",
   "main": "lib/index.js",
   "dependencies": {
-    "@babel/core": "^7.20.12",
+    "@babel/core": "^7.26.10",
     "@babel/eslint-parser": "^7.19.1",
     "eslint-scope": "^7.1.1",
     "eslint-visitor-keys": "^3.3.0",
