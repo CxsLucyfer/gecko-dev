@@ -11,9 +11,9 @@
     "@fluent/react": "0.15.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-redux": "7.2.6",
+    "react-redux": "9.0.0",
     "react-transition-group": "4.4.2",
-    "redux": "4.1.2"
+    "redux": "5.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
