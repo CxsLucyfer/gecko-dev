@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "eslint": "8.38.0",
-    "mocha": "10.2.0"
+    "mocha": "10.8.2"
   },
   "peerDependencies": {
     "@microsoft/eslint-plugin-sdl": "^0.2.2",
