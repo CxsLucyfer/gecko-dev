@@ -25,7 +25,7 @@
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-spidermonkey-js": "file:tools/lint/eslint/eslint-plugin-spidermonkey-js",
-    "jsdoc": "4.0.2",
+    "jsdoc": "4.0.5",
     "prettier": "2.8.8",
     "stylelint": "15.10.3",
     "stylelint-config-recommended": "13.0.0",
