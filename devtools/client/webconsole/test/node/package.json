@@ -6,7 +6,7 @@
     "test-ci": "TZ=Europe/Prague jest --json"
   },
   "dependencies": {
-    "@babel/core": "^7.20.12",
+    "@babel/core": "^7.29.6",
     "@babel/plugin-proposal-class-properties": "7.18.6",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
     "@babel/plugin-proposal-optional-chaining": "^7.20.7",
