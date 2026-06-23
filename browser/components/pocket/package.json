@@ -15,7 +15,7 @@
   "author": "Mozilla (https://mozilla.org/)",
   "license": "MPL-2.0",
   "devDependencies": {
-    "@babel/core": "7.18.6",
+    "@babel/core": "7.29.6",
     "@babel/preset-react": "7.18.6",
     "babel-loader": "8.2.5",
     "chokidar-cli": "3.0.0",
